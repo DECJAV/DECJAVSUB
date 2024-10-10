@@ -124,13 +124,14 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-/* Estilo del contenedor del video */
+/* Centrar el video */
 #video-player {
     text-align: center; /* Centra el contenido */
     margin-top: 20px;
     padding: 40px;
     background-color: rgba(255, 192, 203, 0.1); /* Color de fondo suave (similar al rosa) */
     border-radius: 10px; /* Opcional: Añade bordes redondeados */
+}
 
 /* Estilos del botón de descarga */
 .descarga-telegram {
@@ -153,6 +154,7 @@ nav a:hover {
 .boton-descargar:hover {
     background-color: #cc5200; /* Cambio de color al pasar el mouse */
 }
+
 
 /* Ajustes al iframe del video */
 iframe {
@@ -181,6 +183,7 @@ footer {
     color: white;
     font-size: 1.2rem;
 }
+
 
 /* Barra de búsqueda */
 .search-container input {
@@ -226,5 +229,9 @@ footer {
 
 #pagination-controls span {
     font-size: 18px;
+
+    
+
 }
+
 
