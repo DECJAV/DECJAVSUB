@@ -126,11 +126,32 @@ nav a:hover {
 
 /* Estilo del contenedor del video */
 #video-player {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center; /* Centra el contenido */
+    margin-top: 20px;
     padding: 40px;
-    background-color: rgba(255, 192, 203, 0.1); /* Mantener la estética suave y atractiva */
+    background-color: rgba(255, 192, 203, 0.1); /* Color de fondo suave (similar al rosa) */
+    border-radius: 10px; /* Opcional: Añade bordes redondeados */
+
+/* Estilos del botón de descarga */
+.descarga-telegram {
+    margin-top: 15px; /* Añade un espacio entre el video y el botón */
+    text-align: center; /* Asegura que el botón esté centrado */
+}
+
+.boton-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Color del botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-descargar:hover {
+    background-color: #cc5200; /* Cambio de color al pasar el mouse */
 }
 
 /* Ajustes al iframe del video */
